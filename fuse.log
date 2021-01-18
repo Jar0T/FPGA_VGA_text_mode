@@ -1,0 +1,59 @@
+Running: /home/jaroslaw/developement/FPGA/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top_TB_isim_beh.exe" -prj "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top_TB_beh.prj" "work.VGA_top_TB" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/RAM_8192x8.vhd" into library work
+Parsing VHDL file "/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/DCM.vhd" into library work
+Parsing VHDL file "/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/RAM_2048x8.vhd" into library work
+Parsing VHDL file "/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/FIFO_16x8.vhd" into library work
+Parsing VHDL file "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA.vhd" into library work
+Parsing VHDL file "/home/jaroslaw/developement/FPGA/projects/VGA_text/UART.vhd" into library work
+Parsing VHDL file "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.vhd" into library work
+Parsing VHDL file "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 128828 KB
+Fuse CPU Usage: 2100 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package vcomponents
+Compiling architecture behavioral of entity fifo_generator_v9_3_bhv_as [\fifo_generator_v9_3_bhv_as(8,"0...]
+Compiling architecture behavioral of entity fifo_generator_v9_3_conv [\fifo_generator_v9_3_conv(0,0,4,...]
+Compiling architecture behavioral of entity fifo_generator_v9_3 [\fifo_generator_v9_3(0,0,4,"Blan...]
+Compiling architecture fifo_16x8_a of entity FIFO_16x8 [fifo_16x8_default]
+Compiling architecture behavioral of entity UART [uart_default]
+Compiling package std_logic_signed
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture pll_adv_v of entity PLL_ADV [\PLL_ADV("OPTIMIZED","CLKFBOUT",...]
+Compiling architecture pll_base_v of entity PLL_BASE [\PLL_BASE("OPTIMIZED",4,0.0,10.0...]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture xilinx of entity DCM [dcm_default]
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture ram_2048x8_a of entity RAM_2048x8 [ram_2048x8_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture ram_8192x8_a of entity RAM_8192x8 [ram_8192x8_default]
+Compiling architecture behavioral of entity VGA [vga_default]
+Compiling architecture behavioral of entity VGA_top [vga_top_default]
+Compiling architecture behavior of entity vga_top_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 57 VHDL Units
+Built simulation executable /home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top_TB_isim_beh.exe
+Fuse Memory Usage: 720948 KB
+Fuse CPU Usage: 2660 ms
+GCC CPU Usage: 230 ms

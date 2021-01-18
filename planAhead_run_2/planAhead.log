@@ -1,0 +1,148 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sun Jan 17 14:30:31 2021
+# Process ID: 58408
+# Log file: /home/jaroslaw/developement/FPGA/projects/VGA_text/planAhead_run_2/planAhead.log
+# Journal file: /home/jaroslaw/developement/FPGA/projects/VGA_text/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from /home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/jaroslaw/developement/FPGA/projects/VGA_text/pa.fromNetlist.tcl
+# create_project -name VGA_text -dir "/home/jaroslaw/developement/FPGA/projects/VGA_text/planAhead_run_2" -part xc6slx9csg324-2
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/home/jaroslaw/developement/FPGA/projects/VGA_text} {ipcore_dir} }
+# add_files [list {ipcore_dir/FIFO_16x8.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/RAM_8192x8.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/RAM_2048x8.ncf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "VGA_top.ucf" [current_fileset -constrset]
+Adding file '/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ucf' to fileset 'constrs_1'
+# add_files [list {VGA_top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9csg324-2
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design VGA_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to VGA_top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file VGA_top.edif ...
+ngc2edif: Total memory usage is 92900 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/VGA_text.data/cache/VGA_top_ngc_5700e182.edif]
+CRITICAL WARNING: [Netlist 29-73] Incorrect value '10.0' specified for property 'CLKIN_PERIOD'. The system will either use the default value or the property value will be dropped. Verify your source files. [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ngc:4048]
+CRITICAL WARNING: [Netlist 29-73] Incorrect value '0,500000' specified for property 'CLKOUT0_DUTY_CYCLE'. The system will either use the default value or the property value will be dropped. Verify your source files. [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ngc:4050]
+CRITICAL WARNING: [Netlist 29-73] Incorrect value '0,500000' specified for property 'CLKOUT1_DUTY_CYCLE'. The system will either use the default value or the property value will be dropped. Verify your source files. [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ngc:4053]
+CRITICAL WARNING: [Netlist 29-73] Incorrect value '0,500000' specified for property 'CLKOUT2_DUTY_CYCLE'. The system will either use the default value or the property value will be dropped. Verify your source files. [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ngc:4056]
+CRITICAL WARNING: [Netlist 29-73] Incorrect value '0,500000' specified for property 'CLKOUT3_DUTY_CYCLE'. The system will either use the default value or the property value will be dropped. Verify your source files. [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ngc:4059]
+CRITICAL WARNING: [Netlist 29-73] Incorrect value '0,500000' specified for property 'CLKOUT4_DUTY_CYCLE'. The system will either use the default value or the property value will be dropped. Verify your source files. [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ngc:4062]
+CRITICAL WARNING: [Netlist 29-73] Incorrect value '0,500000' specified for property 'CLKOUT5_DUTY_CYCLE'. The system will either use the default value or the property value will be dropped. Verify your source files. [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ngc:4065]
+Finished Parsing EDIF File [./planAhead_run_2/VGA_text.data/cache/VGA_top_ngc_5700e182.edif]
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design FIFO_16x8.ngc ...
+WARNING:NetListWriters:298 - No output is written to FIFO_16x8.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file FIFO_16x8.edif ...
+ngc2edif: Total memory usage is 92400 kilobytes
+
+Reading core file '/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/FIFO_16x8.ngc' for (cell view 'FIFO_16x8', library 'VGA_top_lib', file 'VGA_top.ngc')
+Parsing EDIF File [./planAhead_run_2/VGA_text.data/cache/FIFO_16x8_ngc_95f7d839.edif]
+Finished Parsing EDIF File [./planAhead_run_2/VGA_text.data/cache/FIFO_16x8_ngc_95f7d839.edif]
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design RAM_8192x8.ngc ...
+WARNING:NetListWriters:298 - No output is written to RAM_8192x8.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file RAM_8192x8.edif ...
+ngc2edif: Total memory usage is 92264 kilobytes
+
+Reading core file '/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/RAM_8192x8.ngc' for (cell view 'RAM_8192x8', library 'VGA_top_lib', file 'VGA_top.ngc')
+Parsing EDIF File [./planAhead_run_2/VGA_text.data/cache/RAM_8192x8_ngc_95f7d839.edif]
+Finished Parsing EDIF File [./planAhead_run_2/VGA_text.data/cache/RAM_8192x8_ngc_95f7d839.edif]
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design RAM_2048x8.ngc ...
+WARNING:NetListWriters:298 - No output is written to RAM_2048x8.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file RAM_2048x8.edif ...
+ngc2edif: Total memory usage is 92100 kilobytes
+
+Reading core file '/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/RAM_2048x8.ngc' for (cell view 'RAM_2048x8', library 'VGA_top_lib', file 'VGA_top.ngc')
+Parsing EDIF File [./planAhead_run_2/VGA_text.data/cache/RAM_2048x8_ngc_95f7d839.edif]
+Finished Parsing EDIF File [./planAhead_run_2/VGA_text.data/cache/RAM_2048x8_ngc_95f7d839.edif]
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from /home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from /home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from /home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/csg324/Package.xml
+Loading io standards from /home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /home/jaroslaw/developement/FPGA/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/FIFO_16x8.ncf]
+Finished Parsing UCF File [/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/FIFO_16x8.ncf]
+Parsing UCF File [/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/RAM_8192x8.ncf]
+Finished Parsing UCF File [/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/RAM_8192x8.ncf]
+Parsing UCF File [/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/RAM_2048x8.ncf]
+Finished Parsing UCF File [/home/jaroslaw/developement/FPGA/projects/VGA_text/ipcore_dir/RAM_2048x8.ncf]
+Parsing UCF File [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ucf]
+Finished Parsing UCF File [/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  RAM16X1D => RAM16X1D (RAMD32, RAMD32, GND): 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 1 instances
+
+Phase 0 | Netlist Checksum: 5f10e5c4
+link_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:17 . Memory (MB): peak = 2935.273 ; gain = 176.395
+set_property iostandard LVCMOS33 [get_ports [list rx]]
+set_property iostandard LVCMOS33 [get_ports [list tx]]
+startgroup
+set_property package_pin B8 [get_ports tx]
+endgroup
+startgroup
+set_property package_pin A8 [get_ports rx]
+endgroup
+set_property drive 8 [get_ports [list tx]]
+set_property slew FAST [get_ports [list tx]]
+save_constraints
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See /home/jaroslaw/developement/FPGA/projects/VGA_text/planAhead_pid58408.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Jan 17 14:33:28 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

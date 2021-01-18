@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vga_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/vga_tb/clk_40" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_40</obj_property>
+      <obj_property name="ObjectShortName">clk_40</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/color" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">color[7:0]</obj_property>
+      <obj_property name="ObjectShortName">color[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/vga_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/vga_hsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_hsync</obj_property>
+      <obj_property name="ObjectShortName">vga_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/vga_vsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_vsync</obj_property>
+      <obj_property name="ObjectShortName">vga_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/column" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">column[10:0]</obj_property>
+      <obj_property name="ObjectShortName">column[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/row" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">row[9:0]</obj_property>
+      <obj_property name="ObjectShortName">row[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/linear" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">linear[12:0]</obj_property>
+      <obj_property name="ObjectShortName">linear[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/clk_40_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_40_period</obj_property>
+      <obj_property name="ObjectShortName">clk_40_period</obj_property>
+   </wvobject>
+</wave_config>

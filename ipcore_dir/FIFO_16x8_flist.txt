@@ -1,0 +1,16 @@
+# Output products list for <FIFO_16x8>
+FIFO_16x8/doc/fifo_generator_v9_3_readme.txt
+FIFO_16x8/doc/fifo_generator_v9_3_vinfo.html
+FIFO_16x8/doc/pg057-fifo-generator.pdf
+FIFO_16x8/fifo_generator_v9_3_readme.txt
+FIFO_16x8.asy
+FIFO_16x8.gise
+FIFO_16x8.ngc
+FIFO_16x8.sym
+FIFO_16x8.vhd
+FIFO_16x8.vho
+FIFO_16x8.xco
+FIFO_16x8.xise
+FIFO_16x8_flist.txt
+FIFO_16x8_xmdf.tcl
+_xmsgs/pn_parser.xmsgs

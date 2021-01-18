@@ -1,0 +1,36 @@
+ISim log file
+Running: /home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top_TB_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 17 ms
+Simulator is doing circuit initialization process.
+at 0 ps: Note: WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information. (/vga_top_tb/uut/My_UART/in_fifo/U0/gconvfifo/inst_conv_fifo/).
+Finished circuit initialization process.
+Stopped at time : 72332500 ps : File "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top.vhd" Line 184
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 17 ms
+Simulator is doing circuit initialization process.
+at 0 ps: Note: WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information. (/vga_top_tb/uut/My_UART/in_fifo/U0/gconvfifo/inst_conv_fifo/).
+Finished circuit initialization process.
+at 498995 ns(7): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/vga_top_tb/uut/CharRAM/U0/native_mem_module/mem_module/).
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 17 ms
+Simulator is doing circuit initialization process.
+at 0 ps: Note: WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information. (/vga_top_tb/uut/My_UART/in_fifo/U0/gconvfifo/inst_conv_fifo/).
+Finished circuit initialization process.
+at 498995 ns(7): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/vga_top_tb/uut/CharRAM/U0/native_mem_module/mem_module/).
+# exit 0
