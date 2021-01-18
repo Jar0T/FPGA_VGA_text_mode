@@ -1,0 +1,92 @@
+
+#Created by Constraints Editor (xc6slx9-csg324-2) - 2021/01/15
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 100 MHz HIGH 50 %;
+
+
+NET "data[7]" IOSTANDARD = LVCMOS33;
+NET "data[6]" IOSTANDARD = LVCMOS33;
+NET "data[5]" IOSTANDARD = LVCMOS33;
+NET "data[4]" IOSTANDARD = LVCMOS33;
+NET "data[3]" IOSTANDARD = LVCMOS33;
+NET "data[2]" IOSTANDARD = LVCMOS33;
+NET "data[1]" IOSTANDARD = LVCMOS33;
+NET "data[0]" IOSTANDARD = LVCMOS33;
+NET "switch[7]" IOSTANDARD = LVCMOS33;
+NET "switch[6]" IOSTANDARD = LVCMOS33;
+NET "switch[5]" IOSTANDARD = LVCMOS33;
+NET "switch[4]" IOSTANDARD = LVCMOS33;
+NET "switch[3]" IOSTANDARD = LVCMOS33;
+NET "switch[2]" IOSTANDARD = LVCMOS33;
+NET "switch[1]" IOSTANDARD = LVCMOS33;
+NET "switch[0]" IOSTANDARD = LVCMOS33;
+NET "button" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "hSync" IOSTANDARD = LVCMOS33;
+NET "vSync" IOSTANDARD = LVCMOS33;
+NET "data[7]" DRIVE = 8;
+NET "data[6]" DRIVE = 8;
+NET "data[5]" DRIVE = 8;
+NET "data[4]" DRIVE = 8;
+NET "data[3]" DRIVE = 8;
+NET "data[2]" DRIVE = 8;
+NET "data[1]" DRIVE = 8;
+NET "data[0]" DRIVE = 8;
+NET "hSync" DRIVE = 8;
+NET "vSync" DRIVE = 8;
+NET "data[7]" SLEW = FAST;
+NET "data[6]" SLEW = FAST;
+NET "data[5]" SLEW = FAST;
+NET "data[4]" SLEW = FAST;
+NET "data[3]" SLEW = FAST;
+NET "data[2]" SLEW = FAST;
+NET "data[1]" SLEW = FAST;
+NET "data[0]" SLEW = FAST;
+NET "hSync" SLEW = FAST;
+NET "vSync" SLEW = FAST;
+NET "switch[7]" PULLUP;
+NET "switch[6]" PULLUP;
+NET "switch[5]" PULLUP;
+NET "switch[4]" PULLUP;
+NET "switch[3]" PULLUP;
+NET "switch[2]" PULLUP;
+NET "switch[1]" PULLUP;
+NET "switch[0]" PULLUP;
+NET "button" PULLUP;
+
+
+NET "clk" LOC = V10;
+NET "switch[7]" LOC = F17;
+NET "switch[6]" LOC = F18;
+NET "switch[5]" LOC = E16;
+NET "switch[4]" LOC = E18;
+NET "switch[3]" LOC = D18;
+NET "switch[2]" LOC = D17;
+NET "switch[1]" LOC = C18;
+NET "switch[0]" LOC = C17;
+NET "button" LOC = M16;
+NET "hSync" LOC = B12;
+NET "vSync" LOC = A12;
+NET "data[7]" LOC = C9;
+NET "data[6]" LOC = B9;
+NET "data[5]" LOC = A9;
+NET "data[4]" LOC = C11;
+NET "data[3]" LOC = A10;
+NET "data[2]" LOC = C10;
+NET "data[0]" LOC = B11;
+NET "data[1]" LOC = A11;
+
+# PlanAhead Generated IO constraints 
+
+NET "rx" IOSTANDARD = LVCMOS33;
+NET "tx" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "tx" LOC = B8;
+NET "rx" LOC = A8;
+
+# PlanAhead Generated IO constraints 
+
+NET "tx" DRIVE = 8;
+NET "tx" SLEW = FAST;

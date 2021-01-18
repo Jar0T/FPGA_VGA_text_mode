@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top_TB_isim_beh.exe" -prj "/home/jaroslaw/developement/FPGA/projects/VGA_text/VGA_top_TB_beh.prj" "work.VGA_top_TB" 

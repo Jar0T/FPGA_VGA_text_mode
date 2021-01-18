@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Jan 15 22:14:58 2021
+# Process ID: 31111
+# Log file: /home/jaroslaw/developement/FPGA/projects/VGA_text/planAhead_run_1/planAhead.log
+# Journal file: /home/jaroslaw/developement/FPGA/projects/VGA_text/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/jaroslaw/developement/FPGA/projects/VGA_text/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list {data[7]} {data[6]} {data[5]} {data[4]} {data[3]} {data[2]} {data[1]} {data[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {switch[7]} {switch[6]} {switch[5]} {switch[4]} {switch[3]} {switch[2]} {switch[1]} {switch[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list button]]
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list hSync]]
+set_property iostandard LVCMOS33 [get_ports [list vSync]]
+set_property drive 8 [get_ports [list {data[7]} {data[6]} {data[5]} {data[4]} {data[3]} {data[2]} {data[1]} {data[0]}]]
+set_property drive 8 [get_ports [list hSync]]
+set_property drive 8 [get_ports [list vSync]]
+set_property slew FAST [get_ports [list {data[7]} {data[6]} {data[5]} {data[4]} {data[3]} {data[2]} {data[1]} {data[0]}]]
+set_property slew FAST [get_ports [list hSync]]
+set_property slew FAST [get_ports [list vSync]]
+set_property pulltype PULLUP [get_ports [list {switch[7]} {switch[6]} {switch[5]} {switch[4]} {switch[3]} {switch[2]} {switch[1]} {switch[0]}]]
+set_property pulltype PULLUP [get_ports [list button]]
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports {switch[7]}]
+endgroup
+startgroup
+set_property package_pin F18 [get_ports {switch[6]}]
+endgroup
+startgroup
+set_property package_pin E16 [get_ports {switch[5]}]
+endgroup
+startgroup
+set_property package_pin E18 [get_ports {switch[4]}]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports {switch[3]}]
+endgroup
+startgroup
+set_property package_pin D17 [get_ports {switch[2]}]
+endgroup
+startgroup
+set_property package_pin C18 [get_ports {switch[1]}]
+endgroup
+startgroup
+set_property package_pin C17 [get_ports {switch[0]}]
+endgroup
+startgroup
+set_property package_pin M16 [get_ports button]
+endgroup
+startgroup
+set_property package_pin B12 [get_ports hSync]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports vSync]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports {data[7]}]
+endgroup
+startgroup
+set_property package_pin B9 [get_ports {data[6]}]
+endgroup
+startgroup
+set_property package_pin A9 [get_ports {data[5]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {data[4]}]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports {data[3]}]
+endgroup
+startgroup
+set_property package_pin C10 [get_ports {data[2]}]
+endgroup
+startgroup
+set_property package_pin A11 [get_ports {data[1]}]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports {data[0]}]
+endgroup
+startgroup
+set_property package_pin A11 [get_ports {data[1]}]
+endgroup
+save_constraints

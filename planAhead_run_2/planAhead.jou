@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sun Jan 17 14:30:31 2021
+# Process ID: 58408
+# Log file: /home/jaroslaw/developement/FPGA/projects/VGA_text/planAhead_run_2/planAhead.log
+# Journal file: /home/jaroslaw/developement/FPGA/projects/VGA_text/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/jaroslaw/developement/FPGA/projects/VGA_text/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list rx]]
+set_property iostandard LVCMOS33 [get_ports [list tx]]
+startgroup
+set_property package_pin B8 [get_ports tx]
+endgroup
+startgroup
+set_property package_pin A8 [get_ports rx]
+endgroup
+set_property drive 8 [get_ports [list tx]]
+set_property slew FAST [get_ports [list tx]]
+save_constraints
